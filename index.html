@@ -18,7 +18,7 @@
 </head>
 <body>
 
-<!-- Набор иконок (lucide). Использование: <svg class="icon"><use href="#i-имя"/></svg> -->
+<!-- Набор иконок (lucide). -->
 <svg width="0" height="0" style="position:absolute" aria-hidden="true">
   <symbol id="i-menu" viewBox="0 0 24 24"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></symbol>
   <symbol id="i-sparkles" viewBox="0 0 24 24"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/><path d="M20 3v4"/><path d="M22 5h-4"/><path d="M4 17v2"/><path d="M5 18H3"/></symbol>
@@ -63,7 +63,7 @@
     <span class="nav__divider" aria-hidden="true"></span>
     <span class="nav__tagline">Кафе блюд из мультфильмов</span>
 
-    <!-- Ссылки (только на широких экранах) -->
+    <!-- Ссылки -->
     <div class="nav__links">
       <a class="link-underline" href="#top">Главная</a>
       <a class="link-underline" href="#menu">Меню</a>
@@ -205,16 +205,15 @@
         </li>
         <li class="feature">
           <div class="feature__icon bg-coral"><svg class="icon"><use href="#i-heart"/></svg></div>
-          <h3 class="feature__title">С любовью к деталям</h3>
-          <p>Свежие продукты и подробный состав каждого блюда.</p>
+          <h3 class="feature__title">Скидки в тематические недели 15 %</h3>
+          <p>Мы проводим тематические недели по конкретному мультику, в эту неделю скидка на блюда из этой тематики -15%</p>
         </li>
       </ul>
     </div>
   </section>
 
 
-  <!-- ===================== МЕНЮ =====================
-       Карточки блюд создаёт script.js из массива DISHES. -->
+  <!-- ===================== МЕНЮ ===================== -->
   <section class="section menu" id="menu">
     <div class="container">
       <div class="section-head">
@@ -238,7 +237,6 @@
         </button>
       </div>
 
-      <!-- Сюда script.js вставляет карточки выбранной категории -->
       <div class="menu__grid" id="menu-panel" role="tabpanel" aria-live="polite" aria-labelledby="tab-main"></div>
     </div>
   </section>
@@ -380,7 +378,7 @@
         <p class="booking__hint"><svg class="icon"><use href="#i-sparkles"/></svg> Планируй встречу заранее — мы будем рады тебя видеть!</p>
       </div>
 
-      <!-- Демо-форма: script.js — НИКУДА не отправляет данные -->
+      <!-- Демо-форма: script.js —  не отправляет данные -->
       <form class="card booking__form" id="booking-form" novalidate aria-label="Форма бронирования столика">
         <div class="form-grid">
           <div class="field field--wide">
