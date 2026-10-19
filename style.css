@@ -218,6 +218,10 @@ button { cursor: pointer; background: none; border: 0; padding: 0; }
 }
 .link-underline:hover::after { transform: scaleX(1); transform-origin: bottom left; }
 
+.link-underline-menu {font-weight: 600; font-size: large;}
+@media (max-width: 1023px) {.link-underline-menu {display: none} }
+
+
 .sticker {
   display: grid;
   place-content: center;
